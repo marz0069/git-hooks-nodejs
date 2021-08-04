@@ -8,7 +8,8 @@
     "prepare": "husky install",
     "lint": "eslint src/**",
     "lint-init": "eslint --init",
-    "lint-fix": "eslint src/** --fix"
+    "lint-fix": "eslint src/** --fix",
+    "success-message": "echo Thanks for committing $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
